@@ -1,0 +1,25 @@
+.image{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+#MyClock{
+    font-weight: bold;
+    margin: 200px 450px;
+    margin-bottom: 400px;
+    position: absolute;
+}
+.clock{
+    letter-spacing: 7px;
+    color: yellow;
+    font-size: 60px;
+  font-family: monospace;
+}
+@media (max-width:790px){
+    #MyClock{
+        margin: 200px 50px;
+    }
+    .clock{
+        font-size: 40px;
+    }
+}
